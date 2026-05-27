@@ -1,0 +1,25 @@
+# HR Multi-Agent System — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core agent framework ──────────────────────────────────────────────
+strands-agents[ollama]      # Strands Agents SDK with Ollama provider support
+strands-agents-tools        # Built-in tools for Strands agents
+
+# ── Observability ─────────────────────────────────────────────────────
+langsmith                   # LangSmith tracing and run logging
+
+# ── Standard library (no install needed, listed for reference) ────────
+# uuid      — built-in
+# json      — built-in
+# re        — built-in
+# datetime  — built-in
+# pathlib   — built-in
+# logging   — built-in
+# io        — built-in
+# contextlib — built-in
+# time      — built-in
+
+# ── Runtime requirement (installed separately) ────────────────────────
+# Ollama desktop app or CLI — https://ollama.com
+# Model: qwen2.5:0.5b
+#   ollama pull qwen2.5:0.5b
